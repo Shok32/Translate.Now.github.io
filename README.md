@@ -1,2 +1,3 @@
 # Translate.Now.github.io
-https://github.com/Shok32/Translate.Now.github.io/blob/main/Photo.png
+![Photo](https://github.com/user-attachments/assets/545dd675-b6c3-4a7a-b220-74f3ee71aa9c)
+
