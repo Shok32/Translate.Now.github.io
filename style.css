@@ -58,13 +58,13 @@ h1 {
   font-size: 18px;
   padding: 10px 15px;
   border-radius: 10px;
-  transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* Плавный переход для фона и увеличения */
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s; 
 }
 
 .text-input textarea:focus {
-  background: #d0d0d0; /* Новый цвет фона при фокусировке */
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Тень при фокусировке */
-  transform: scale(1.02); /* Эффект увеличения при фокусировке */
+  background: #d0d0d0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
 }
 
 .text-input textarea::placeholder {
@@ -94,7 +94,7 @@ li,
   color: #06283D;
   font-size: 20px;
   cursor: pointer;
-  transition: transform 0.2s ease, color 0.3s; /* Добавлено для анимации цвета */
+  transition: transform 0.2s ease, color 0.3s;
 }
 
 .controls .row.from .icons {
@@ -110,18 +110,18 @@ li,
 /* Стили для выпадающего меню языков */
 .controls .row select {
   color: #333;
-  border: 1px solid #ccc; /* Добавлено для рамки */
-  border-radius: 20px; /* Скругление углов */
+  border: 1px solid #ccc;
+  border-radius: 20px; 
   outline: none;
   font-size: 18px;
   max-height: 200px;
-  background: #f9f9f9; /* Фоновый цвет */
-  padding: 10px; /* Отступы внутри */
-  transition: border-color 0.3s, background 0.3s; /* Плавные переходы */
+  background: #f9f9f9;
+  padding: 10px; 
+  transition: border-color 0.3s, background 0.3s; 
 }
 
 .controls .row select:hover {
-  border-color: #1E4D92; /* Цвет рамки при наведении */
+  border-color: #1E4D92; 
 }
 
 .controls .row select:focus {
@@ -130,7 +130,7 @@ li,
 }
 
 .controls .exchange:active {
-  transform: rotate(360deg); /* Вращение при нажатии */
+  transform: rotate(360deg);
 }
 
 .controls .exchange {
@@ -159,12 +159,12 @@ li,
   font-size: 17px;
   border-radius: 10px;
   background: #06283D;
-  transition: background 0.3s, transform 0.2s; /* Добавлено для анимации кнопки */
+  transition: background 0.3s, transform 0.2s; 
 }
 
 .container button:hover {
   background: #1E4D92;
-  transform: scale(1.05); /* Увеличение кнопки при наведении */
+  transform: scale(1.05);
 }
 
 .fade-in {
@@ -194,7 +194,6 @@ li,
   transition: opacity 0.5s ease;
 }
 
-/* Медиа-запросы для адаптивного дизайна */
 @media (max-width: 660px) {
   .container {
     padding: 20px;
@@ -218,8 +217,8 @@ li,
   }
 
 .controls .row .icons i {
-    width: 40px; /* Уменьшение ширины для мобильных устройств */
-    font-size: 24px; /* Увеличение размера иконок для лучшей видимости */
+    width: 40px; 
+    font-size: 24px;
   }
 
 
